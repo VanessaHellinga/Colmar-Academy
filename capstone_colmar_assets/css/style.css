@@ -1,3 +1,23 @@
 body {
-    font-family:
+    font-family: "Open Sans" sans-serif;
+    color: rgb(70, 70, 70);
+    background-color: white;
+}
+
+/*HEADER*/
+header {
+    height: 64px;
+    width: 100%;
+    overflow: hidden;
+}
+.header--img {
+    padding-left: 24px;
+    width: 36px;
+    float: left;
+}
+.header--h2 {
+    display: inline-flex;
+    margin: 7px 0 0 0;
+    font-weight: 300;
+    font-size: 22px;
 }
