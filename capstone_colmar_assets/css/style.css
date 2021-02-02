@@ -40,11 +40,11 @@ li{
 #banner {
     background-color: lightgray;
     width: 100%;
-    height: 615px;
+    padding-bottom: 10em;
     margin: 0px;
 }
 #banner .banner--img {
-    width: 60%;
+    width: 55%;
     height: auto;
     margin: 32px 24px;
     float: left;
@@ -79,31 +79,59 @@ div .button {
 }
 
 /*MAIN SECTION*/
+    /*BOX LEFT*/
+#box--left {
+    width: 55%;
+    float: left;
+}
 .main--img {
-    width: 60%;
+    width: 100%;
     height: auto;
     padding: 32px 24px;  
 }
-#box--1 {
+.title {
+    font-weight: 800;
+    font-size: 38px;
+    margin: 0 24px;
+}
+.latin {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 24px 0 0 24px;
+}
+.main--foot {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 32px 24px;
+}
+    /*BOX RIGHT*/
+#box--right {
     display: inline-flex;
-    width: 34%;
+    width: 40%;
     border: 2px solid lightgray;
-    padding: 12px 0 12px 12px;
-
+    border-top: 2px solid white;
+    padding: 32px 0 18px 18px;
+    float: right;
 }
 .orientation--img {
-    width: 30%;
+    width: 35%;
     height: auto;
 }
 .right--box--list{
-    padding-left: 20px;
+    width: 65%;
+    padding-left: 12px;
+    padding-top: 20px;
     line-height: 1.6;
+
 }
 .right--box--title {
+    width: 100%;
     font-weight: 700;
     font-size: 24px;
 }
 .dates {
+    width: 100%;
     font-size: 18px;
     opacity: 0.75;
 }
@@ -111,22 +139,4 @@ div .button {
     color: blue;
     opacity: 0.5;
 }
-.title {
-    font-weight: 800;
-    font-size: 38px;
-    margin: 0 24px;
-    width: 50%;
-}
-.latin {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 1.4;
-    margin: 24px 0 0 24px;
-    width: 50%;
-}
-.main--foot {
-    font-weight: 300;
-    font-size: 14px;
-    margin: 32px 24px;
-    width: 20%;
-}
+
