@@ -77,3 +77,56 @@ div .button {
     margin-top: 3%;
     margin-left: 24px;
 }
+
+/*MAIN SECTION*/
+.main--img {
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;  
+}
+#box--1 {
+    display: inline-flex;
+    width: 34%;
+    border: 2px solid lightgray;
+    padding: 12px 0 12px 12px;
+
+}
+.orientation--img {
+    width: 30%;
+    height: auto;
+}
+.right--box--list{
+    padding-left: 20px;
+    line-height: 1.6;
+}
+.right--box--title {
+    font-weight: 700;
+    font-size: 24px;
+}
+.dates {
+    font-size: 18px;
+    opacity: 0.75;
+}
+.blue{
+    color: blue;
+    opacity: 0.5;
+}
+.title {
+    font-weight: 800;
+    font-size: 38px;
+    margin: 0 24px;
+    width: 50%;
+}
+.latin {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 24px 0 0 24px;
+    width: 50%;
+}
+.main--foot {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 32px 24px;
+    width: 20%;
+}
