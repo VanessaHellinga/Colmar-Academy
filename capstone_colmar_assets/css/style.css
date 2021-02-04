@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans" sans-serif;
-    color: rgb(70, 70, 70);
+    color: rgb(85, 85, 85);
     background-color: white;
 }
 
@@ -94,7 +94,7 @@ div .button {
     font-weight: 800;
     font-size: 38px;
     margin: 0 24px;
-    color: rgb(70, 70, 70);
+    opacity: 0.9;
 }
 .latin {
     font-weight: 300;
@@ -132,8 +132,6 @@ div .button {
 .right--box--title {
     font-weight: 800;
     font-size: 24px;
-    opacity: 1;
-    color:rgb(70, 70, 70);
 }
 .dates {
     opacity: 0.75;
@@ -200,4 +198,34 @@ div .button {
     opacity: 0.75;
     font-weight: 300;
     font-size: 20px;
+}
+/*VIDEO SECTION*/
+.vid {
+    width: 100%;
+    height: auto;
+    padding: 0 24px; 
+}
+.section--title2 {
+    width: 100%;
+    display: flex; 
+    font-weight: 800;
+    font-size: 38px;
+    margin: 0;
+    padding: 32px 0;
+    justify-content: center;  
+}  
+#box--right2 {
+    border: none;
+}  
+.title2 {
+    font-weight: 800;
+    font-size: 22px;
+    margin: 24px 0 8px 24px;
+    opacity: 0.9;
+}
+.latin2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 24px 0 32px 24px;
 }
