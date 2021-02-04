@@ -229,3 +229,26 @@ div .button {
     line-height: 1.4;
     margin: 24px 0 32px 24px;
 }
+/*FOOTER*/
+.section--foot {
+    width: 100%;
+    display: flex; 
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0;
+    padding: 16px 0 32px 24px; 
+    border-top: 1px dotted lightgray;
+    
+}
+.copy{
+    float: left;
+}
+.terms {
+    margin-left: 60%;
+    padding-left: 10%;
+}
+.pri{
+    padding-left: 55px;
+    padding-right: 24px;
+}
+
