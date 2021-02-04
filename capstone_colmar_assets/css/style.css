@@ -83,6 +83,7 @@ div .button {
 #box--left {
     width: 55%;
     float: left;
+    background-color: white;
 }
 .main--img {
     width: 100%;
@@ -93,6 +94,7 @@ div .button {
     font-weight: 800;
     font-size: 38px;
     margin: 0 24px;
+    color: rgb(70, 70, 70);
 }
 .latin {
     font-weight: 300;
@@ -104,6 +106,7 @@ div .button {
     font-weight: 300;
     font-size: 14px;
     margin: 32px 24px;
+    padding: 20px 0;
 }
     /*BOX RIGHT*/
 #box--right {
@@ -124,16 +127,15 @@ div .button {
     padding-left: 12px;
     padding-top: 20px;
     line-height: 1.6;
-
+    font-size: 18px;
 }
 .right--box--title {
-    width: 100%;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 24px;
+    opacity: 1;
+    color:rgb(70, 70, 70);
 }
 .dates {
-    width: 100%;
-    font-size: 18px;
     opacity: 0.75;
 }
 .blue{
@@ -155,5 +157,47 @@ div .button {
     padding: 18px 0 18px 18px;
     float: right;
     background-color: lightgray;
+}
 
+/*COURSES SECTION*/
+.section--title {
+    width: 100%;
+    background-color: lightgray;
+    display: flex; 
+    font-weight: 800;
+    font-size: 38px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+    justify-content: center;  
+}
+.background--only {
+    background-color: lightgray;
+}
+.display {
+    display: inline-flex;
+    padding-left: 72px;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+}
+.container {
+    background-color: white;
+    width: 30%;
+    margin-left: 16px;
+    margin-top: 16px
+}
+.course--img {
+    width: 100%;
+    height: auto;
+}
+.course--title {
+    font-size: 28px;
+    margin: 16px; 
+}
+.course--text {
+    margin: 0;
+    padding-left: 16px;
+    opacity: 0.75;
+    font-weight: 300;
+    font-size: 20px;
 }
